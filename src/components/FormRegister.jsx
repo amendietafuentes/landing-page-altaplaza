@@ -4,7 +4,7 @@ const FormRegister = () => {
     return(
         <div id="form-register" className="container-fluid w-100 pt-5 forms-users-info">
             <div className="row">
-                <div className="col-md-12 form-users-bg">
+                <div className="col-md-8 col-sm-12 col-xs-12 form-users-bg">
                     <form>
                         <h1 class="h3 mb-3 fw-normal text-center title-form-register">Llena tus datos y registra las facturas de tus compras.</h1>
                         

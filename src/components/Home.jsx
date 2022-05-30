@@ -11,7 +11,7 @@ const Home = () => {
         <div className="row">
             <Banner />
             <Content />
-            <FormBuy />
+            <FormRegister />
             <Footer />
         </div>
     );

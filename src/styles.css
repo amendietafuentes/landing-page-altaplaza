@@ -29,6 +29,15 @@ body {
     margin: 0;
 }
 
+.banner-home {
+    background-image: url(./images/banner-home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 877px;
+}
+
 .title-copy {
     background-image: url(./images/Altaplaza-Crucero-Landing_26mayo2022_OUT_03.jpg);
     background-size: cover;
@@ -56,6 +65,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .banner-home {
+        background-size: contain;
+        min-height: 280px;
+        height: 100%;
+    }
     .title-primary {
         padding: 0.5rem 1rem 0;
         font-size: 1rem;
@@ -70,7 +84,7 @@ body {
     background-image: url(./images/Altaplaza-Crucero-Landing_26mayo2022_OUT_05.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: cover;
     background-color: var(--secundary-color);
     padding: 2rem;
     height: 100%;
@@ -80,6 +94,7 @@ body {
     background-color: var(--white-color);
     padding: 1.5rem;
     border-radius: 1.5rem;
+    margin: 0 auto;
 }
 
 .form-control {
@@ -106,6 +121,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .forms-users-info {
+        background-size: cover;
+    }
     .forms-users-info .title-form-login {
         font-size: 1.2rem;
     }

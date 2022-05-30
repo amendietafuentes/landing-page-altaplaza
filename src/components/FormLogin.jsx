@@ -2,9 +2,9 @@ import React from "react";
 
 const FormLogin = () => {
     return(
-        <div id="form-login" className="container-fluid w-100 pt-5 forms-users-info">
+        <div id="form-login" className="container-fluid w-100 pt-5 form-login">
             <div className="row">
-                <div className="col-md-12 form-login-bg">
+                <div className="col-md-8 col-sm-12 col-xs-12 form-login-bg">
                     <form>
                         <h1 class="h3 mb-3 fw-normal text-center title-form-login">Llena tus datos y registra las facturas de tus compras.</h1>
                         <h3 class="h3 mb-3 text-center cta-form-register">No tienes una cuenta? Reg&iacute;strate aqu&iacute;</h3>
