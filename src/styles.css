@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #f6821f;
+    --secundary-color: #fcd4bb;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --input-bg-color: #d4e0f0;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--montserrat);
+    background-color: var(--white-color);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.banner-home,
+.primary {
+    padding: 0;
+    margin: 0;
+}
+
+.title-copy {
+    background-image: url(./images/Altaplaza-Crucero-Landing_26mayo2022_OUT_03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+    background-position: bottom;
+    text-align: center;
+    height: 100%;
+}
+
+.title-primary,
+.title-secondary {
+    font-family: var(--montserrat);
+    color: var(--white-color);
+}
+
+.title-primary {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.title-secondary {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-primary {
+        padding: 0.5rem 1rem 0;
+        font-size: 1rem;
+    }
+    .title-secondary {
+        font-size: 0.8rem;
+        padding: 0.5rem 4rem 0rem;
+    }
+}
+
+.forms-users-info {
+    background-image: url(./images/Altaplaza-Crucero-Landing_26mayo2022_OUT_05.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: var(--secundary-color);
+    padding: 2rem;
+    height: 100%;
+}
+
+.form-users-bg {
+    background-color: var(--white-color);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.form-control {
+    background-color: var(--input-bg-color);
+    margin: 0.5rem 0rem;
+}
+
+.forms-users-info .title-form-login,
+.forms-users-info .title-form-register,
+.forms-users-info .title-form-buy {
+    font-family: var(--montserrat);
+}
+
+.forms-users-info .cta-form-register {
+    font-family: var(--montserrat);
+}
+
+.forms-users-info .btn-send {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-family: var(--montserrat);
+    border: none;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .forms-users-info .title-form-login {
+        font-size: 1.2rem;
+    }
+    .forms-users-info .cta-form-register {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+}
+
+footer {
+    padding: 2.5rem 0rem 0rem;
+    background-color: var(--white-color);
+}
+
+footer .copy-footer {
+    font-size: 0.8rem;
+    color: var(--black-color);
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    footer .participa-ya {
+        padding: 0rem 1rem;
+    }
+    footer .copy-footer {
+        font-size: 0.8rem;
+        padding: 0 1.5rem;
+        margin: 0 auto;
+    }
+}
