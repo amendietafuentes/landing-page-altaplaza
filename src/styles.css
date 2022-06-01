@@ -64,9 +64,13 @@ body {
     font-weight: 300;
 }
 
+.title-copy {
+    padding: 3rem 0;
+}
+
 @media only screen and (max-width: 600px) {
     .banner-home {
-        background-size: contain;
+        background-size: cover;
         min-height: 280px;
         height: 100%;
     }
@@ -77,6 +81,9 @@ body {
     .title-secondary {
         font-size: 0.8rem;
         padding: 0.5rem 4rem 0rem;
+    }
+    .title-copy {
+        padding: 1rem 0;
     }
 }
 
@@ -118,6 +125,8 @@ body {
     font-family: var(--montserrat);
     border: none;
     text-transform: uppercase;
+    width: 25%;
+    margin-left: 75%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -130,6 +139,10 @@ body {
     .forms-users-info .cta-form-register {
         font-size: 0.8rem;
         font-weight: 700;
+    }
+    .forms-users-info .btn-send {
+        width: 100%;
+        margin: 0;
     }
 }
 

@@ -22,7 +22,7 @@ const FormLogin = () => {
                             <input type="checkbox" value="remember-me" /> ¿Olvidaste tu contrase&ntilde;a?
                             </label>
                         </div>
-                        <button class="w-100 btn btn-lg btn-primary btn-send" type="submit">Enviar</button>
+                        <button class="btn btn-lg btn-primary btn-send" type="submit">Enviar</button>
                     </form>
                 </div>
             </div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Content = () => {
     return(
-        <div className="container-fluid title-copy pt-2 pb-2">
-            <div className="row">
+        <div className="container-fluid title-copy">
+            <div className="row ">
                 <div className="col-md-12">
                     <h1 className="title-primary">
                         Cada compra que realices en cualquier lugar de ALTAPLAZA te acerca m&aacute;s a ganar.

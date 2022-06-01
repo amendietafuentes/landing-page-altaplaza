@@ -23,7 +23,7 @@ const FormBuy = () => {
                             <label for="photo-buy">Foto de Compra</label>
                         </div>
 
-                        <button class="w-100 btn btn-lg btn-primary btn-send" type="submit">Enviar Factura</button>
+                        <button class="btn btn-lg btn-primary btn-send" type="submit">Enviar Factura</button>
                     </form>
                 </div>
             </div>
